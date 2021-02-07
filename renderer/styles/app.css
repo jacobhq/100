@@ -1,3 +1,30 @@
+@tailwind base;
+@tailwind components;
+
 body {
     background-color: #0b3954;
+    height: 100vh;
+    transition: all 1s ease;
+    scroll-behavior: smooth;
+    width: 100%;
 }
+
+#__next, html {
+    height: 100vh;
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+.center {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn {
+    @apply bg-neon text-navy border-0 cursor-pointer p-3 rounded-md font-bold;
+}
+
+@tailwind utilities;

@@ -1,6 +1,6 @@
-appId: com.example.nextron
-productName: My Nextron App
-copyright: Copyright © 2018 Yoshihide Shiono
+appId: com.jacobhq.100
+productName: 100 | JacobHQ
+copyright: Copyright © 2021 Jacob Marshall
 directories:
   output: dist
   buildResources: resources

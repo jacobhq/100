@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "100",
-  "description": "My application description",
+  "description": "My 100th repo (including private ones), built with nextjs, tailwind and electron.",
   "version": "1.0.0",
   "author": "Jacob Marshall",
   "main": "app/background.js",

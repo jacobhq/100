@@ -1,21 +1,33 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
+import '../static/change'
 
 const Home = () => {
   return (
     <React.Fragment>
       <Head>
-        <title>Home - Nextron (with-javascript)</title>
+        <title>100 | JacobHQ</title>
       </Head>
       <div>
-        <p>
-          ⚡ Electron + Next.js ⚡ -
-          <Link href="/next">
-            <a>Go to next page</a>
-          </Link>
-        </p>
-        <img src="/images/logo.png" />
+      <header className="h-screen center">
+        <div className="center">
+          <p className="font-mono text-neon">👋 This is my 100th</p>
+          <h1 className="text-6xl text-neon font-semibold">Repo!</h1>
+          <div className="flex space-2 mt-6">
+            <a className="btn" href="#green">Begin</a>
+          </div>
+        </div>
+      </header>
+      <section className="h-screen center" id="green">
+        <div className="center">
+          <p className="font-mono text-neon" id="header">✨ The background can</p>
+          <h1 className="text-6xl text-neon font-semibold" id="text">Change</h1>
+          <div className="flex space-2 mt-6">
+            <a className="btn" id="btn" href="#">Go back</a>
+          </div>
+        </div>
+      </section>
       </div>
     </React.Fragment>
   );
